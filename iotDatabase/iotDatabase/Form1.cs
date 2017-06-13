@@ -168,7 +168,7 @@ namespace iotDatabase
         {
             if (!string.IsNullOrEmpty(textBox1.Text) || !string.IsNullOrEmpty(textBox2.Text))
             {
-                if (textBox1.Text == "ugrprtkldl" && textBox2.Text == "1946814393865022")
+                if (textBox1.Text == "**********" && textBox2.Text == "**********")
                 {
                     DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete all the data PERMANENTLY?", "", MessageBoxButtons.YesNo);
                     if (dialogResult == DialogResult.Yes)
